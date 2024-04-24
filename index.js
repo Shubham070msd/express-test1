@@ -8,7 +8,7 @@ const app = express();
 const port = process.env.PORT || 3009;
 
 app.get('/ping', (req, res) => {
-    res.send('pingeddd one instance is stooped');
+    res.send('pingeddd one instance is stoped lets check');
 });
 
 app.listen(port, () => {
