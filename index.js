@@ -8,7 +8,7 @@ const app = express();
 const port = process.env.PORT || 3009;
 
 app.get('/ping', (req, res) => {
-    res.send('pingeddd one instance is down now will reload');
+    res.send('pingeddd changes made up one instance');
 });
 
 app.listen(port, () => {
